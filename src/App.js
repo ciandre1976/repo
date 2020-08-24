@@ -2,6 +2,7 @@ import React from 'react';
 import Navbar from './components/Navbar';
 import ArticleList from './components/ArticleList';
 import ThemeProvider from './components/contexts/Theme';
+import ThemeToggle from './components/ThemeToggle';
 
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
     <ThemeProvider>
       <Navbar />
       <ArticleList />
+      <ThemeToggle />
     </ThemeProvider>
     </div>
 
